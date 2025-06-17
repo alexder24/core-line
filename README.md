@@ -1,4 +1,5 @@
 # Besider — Новостное приложение
+Тестовое задание для компании Core Line
 
 ## Описание проекта
 Besider — это мобильная версия веб-приложения для просмотра новостей, реализованная на React, Redux Toolkit и TypeScript. Приложение использует публичный REST API New York Times для получения архива новостей и поддерживает бесконечную прокрутку, автоматическое обновление новостей и адаптивную верстку для мобильных устройств.
@@ -64,10 +65,4 @@ npm run build
 - React 19 + TypeScript
 - Redux Toolkit
 - Vite
-- SCSS (Sass)
-
-## Источники данных
-- [New York Times Archive API](https://developer.nytimes.com/docs/archive-product/1/routes/%7Byear%7D/%7Bmonth%7D.json/get)
-
-## Автор и лицензия
-Тестовое задание для компании Core Line. Все права на дизайн принадлежат [Figma-макет](https://www.figma.com/file/sc2xxWzzgeeFgW7MgMjpYT/Besider---React-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5?type=design&node-id=0-1&mode=design&t=U2Y6w3zdzS5bahWf-0).
+- SCSS
