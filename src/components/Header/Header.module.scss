@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding: 0 16px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.menuButton {
+  position: absolute;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
+.menuIcon {
+  position: relative;
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+  transition: background-color 0.3s ease;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    left: 0;
+    background-color: #000;
+    transition: transform 0.3s ease;
+  }
+
+  &::before {
+    top: -6px;
+  }
+
+  &::after {
+    top: 6px;
+  }
+}
