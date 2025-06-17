@@ -60,11 +60,6 @@ npm run dev
 npm run build
 ```
 
-### 5. Запуск тестов
-```bash
-npm run test
-```
-
 ## Используемые технологии
 - React 19 + TypeScript
 - Redux Toolkit
